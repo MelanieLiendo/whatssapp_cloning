@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
     <!--topbar-->    
     <section class="topbar">
-        <!--wpp icon-->
-        <img src="./images/wppicon.jpg" alt="whatssappicon">
-        <!--wpp text-->
-        <h1>WhatssApp</h1>
+        <div class="topbarleft">
+            <!--wpp icon-->
+            <img src="./images/wppicon.jpg" alt="whatssappicon">
+            <!--wpp text-->
+             <h1>WhatssApp</h1>
+        </div>
         <!--lista de iconos-->
-        <ul>
+        <ul class="topbarright">
             <li><img src="./images/line.png" alt="line"></li>
             <li><img src="./images/square.png" alt="square"></li>
             <li><img src="./images/cross.png" alt="cross"></li>
@@ -30,96 +33,174 @@
                 <!--firsttopbar-->
                 <article class="topleft1">
                 <!--picture-->
-                    <img src="" alt="">
+                    <img  class="topleftpic" src="./images/persona4.jpg" alt="">
                 <!--2 item list-->
-                    <ul>
-                        <li></li>
-                        <li></li>
+                    <ul class="topright1">
+                        <li><img src="./images/plus.png" alt=""></li>
+                        <li><img src="./images/threedots.png" alt=""></li>
                     </ul>
                 </article>
                 <!--secondtopbar-->
                 <article class="topleft2">
                     <!--input search-->
+                    <input type="input" placeholder="Search or start a new chat">
                 </article>
                 <!--eight list chat-->
                 <article class="chats">
-                    <div>
-                        <img src="" alt="">
-                        <h2>Whitmans Chat</h2>
-                        <h3>11:09 AM</h3>
-                        <p>Ned: Yeah, I think i konw wha...</p>
+                    <div class="chat1">
+                        <img src="./images/persona1.jpg" alt="">
+                        <div>
+                            <div class="chat1top">
+                                <h2>Whitmans Chat</h2>
+                                <h3>11:09 AM</h3>
+                            </div>                                   
+                            <p>Ned: Yeah, I think i konw wha...</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <h2>Stewart Family</h2>
-                        <h3>12:52 AM</h3>
-                        <p>Steve: Great, thanks!</p>
+                    <div class="chat2">
+                        <img src="./images/persona2.jpg" alt="">
+                        <div>
+                            <div class="chat2top">
+                                <h2>Stewart Family</h2>
+                                <h3>12:52 AM</h3>
+                            </div>                                 
+                            <p>Steve: Great, thanks!</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <h2></h2>
-                        <h3></h3>
-                        <p></p>
+                    <div class="chat3">
+                        <img src="./images/persona3.jpg" alt="">
+                        <div>
+                            <div class="chat3top">
+                                <h2>Alice Whitman</h2>
+                                <h3>Yesterday</h3>                            
+                            </div>
+                            <p></p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <h2></h2>
-                        <h3></h3>
-                        <p></p>
+                    <div class="chat4">
+                        <img src="./images/persona4.jpg" alt="">
+                        <div>
+                            <div class="chat4top">
+                                <h2>Jack Whitman</h2>
+                                <h3>Yesterday</h3>                            
+                            </div>
+                                <p>You: Sounds good!</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <h2></h2>
-                        <h3></h3>
-                        <p></p>
+                    <div class="chat5">
+                        <img src="./images/persona5.avif" alt="">
+                        <div>
+                            <div class="chat5top">
+                                <h2>Lunch Group</h2>
+                                <h3>Yesterday</h3>                            
+                            </div>
+                            <p>Care amiche, oggi finalmente posso</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <h2></h2>
-                        <h3></h3>
-                        <p></p>
+                    <div class="chat6">
+                        <img src="./images/persona6.jpg" alt="">
+                        <div>
+                            <div class="chat6top">
+                                <h2>Jane Pearson</h2>
+                                <h3>Friday</h3>  
+                            </div>                          
+                            <p>Nice! I definitely feel like surfing</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <h2></h2>
-                        <h3></h3>
-                        <p></p>
+                    <div class="chat7">
+                        <img src="./images/persona7.jpg" alt="">
+                        <div>
+                            <div class="chat7top">
+                                <h2>Peter Whitman</h2>
+                                <h3>Friday</h3>  
+                            </div>                               
+                            <p>Yeah, I thinki know wha..</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
-                        <h2></h2>
-                        <h3></h3>
-                        <p></p>
+                    <div class="chat8">
+                        <img src="./images/persona8.webp" alt="">
+                        <div>
+                            <div class="chat8top">
+                                <h2>Stewart Family</h2>
+                                <h3>Friday</h3>
+                            </div>
+                            <p>Steve: Great thanks!</p>
+                        </div>
                     </div>
                 </article>
         <!--end sidebar-->
         </article>
         <!--main bar-->
+        <article>
             <!--topbar main-->
+            <article>
+                <div>
                     <!--image-->
+                    <img src="images/persona6.jpg" alt="">
                     <!--Chat Name-->
+                    <h1>Whitmans Chat</h1>
                     <!--group members-->
+                    <p>Alice, Francis, Jack, Margot, Peter, Royal, Zissou</p>
+                </div>
                     <!--2 item list-->
+                <div>
+                    <ul>
+                        <li><img src="./images/clip.png" alt=""></li>
+                        <li><img src="./images/threedots.png" alt=""></li>
+                    </ul>
+                </div>
             <!--end topbar main-->
+            </article>
             <!--mainscreen-->
+            <article>
                 <!--grid2-->
-                    <!--left-->
-                        <!--3lists-->
-                    <!--right-->
-                    <!--1list-->
+                <article>
+                    <div>
+                        <!--left-->
+                        <div>
+                            <h1>Peter Whitman</h1>
+                            <img src="" alt="">
+                            <p>Lisboa is fantastic!</p>
+                            <p>12:44 PM</p>
+                        </div>
+                        <div>
+                            <h1>Peter Whitman</h1>
+                            <p>I definitely feel like surfing today!</p>
+                            <p>12:44 PM</p>
+                        </div>
+                        <div>
+                            <h1>Jack Whitman</h1>
+                            <p>Tonight is the movie night! How about this one?</p>
+                            <p>12:44 PM</p>
+                        </div>                   
+                    </div>
+
+                    <div>
+                        <!--right-->
+                    
+                    </div>
+                </article>
+                <article>
                 <!--endbar-->
                     <!--icon-->
+                    <img src="" alt="">
                     <!--input-->
+                    <input type="" placeholder="Type a message">
                     <!--icon-->
+                    <img src="" alt="">
                 <!--end endbar-->
+                </article>
+            <!--end mainscreen-->
+            </article>
         <!--end main bar-->
+        </article>
     <!--end grid2-->
     </section>
     

@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+
+}
+
+
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eae6df;
+    padding: 0 1em;
+    align-items: center;
+    margin: 0;
+    height: 5vh;
+    
+
+}
+
+.topbarleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.topbarleft h1 {
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1em;
+}
+
+.topbarleft img {
+    width: 20px;
+
+}
+
+.topbarright {
+    display: flex;
+    padding-right: 1em;
+    list-style: none;
+
+}
+
+.topbarright li {
+    padding-left: 1em;
+}
+
+
+
+.topbarright img {
+    width: 40px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.topleft1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #eae6df;
+}
+.topleftpic {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.topright1 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.topright1 img {
+    width: 30px;
+}
+.chats {
+    color: grey;
+    font-size: 10px;
+}
+
+.chats h2 {
+    color: black;
+    font-size: 13px;
+}
+
+.chat1 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat1top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat1 img {
+    border-radius: 50%;
+    height: 20px;
+    width: auto;
+    
+    
+
+}
+.chat1 div {
+    padding-left: 1em;
+}
+
+.chat2 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat2top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat2 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.chat2 div {
+    padding-left: 1em;
+}
+
+.chat3 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat3top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat3 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.chat3 div {
+    padding-left: 1em;
+}
+.chat4 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat4top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat4 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.chat4 div {
+    padding-left: 1em;
+}
+
+.chat5 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat5top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat5 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.chat5 div {
+    padding-left: 1em;
+}
+
+.chat6 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat6top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat6 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.chat6 div {
+    padding-left: 1em;
+}
+
+.chat7 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat7top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat7 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.chat7 div {
+    padding-left: 1em;
+}
+
+.chat8 {
+    display: flex;
+    justify-content: left;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+.chat8top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat8 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.chat8 div {
+    padding-left: 1em;
+}
